@@ -26,6 +26,7 @@ Number of Duplicates  --  No duplicates found
 There are no missing values in all columns and rows  
 Numeric columns – 12  
 Qualitative columns – 10
+
 |Columns|Description|EDA|Data Cleaning & Transformation|
 |-------|-----------|---|------------------------------|
 |Id|Unique ID’s of each rows in the data|20,758 unique values of a numeric column.|No Issues.|
@@ -50,6 +51,7 @@ Qualitative columns – 10
 |bedrooms|Number of bedrooms in a listing.|12 unique values of a qualitative column.|Replaced ‘Studio ’ values with 0. Changed datatype to integer.|
 |beds|Number of beds in a listing.|17 unique values of a numeric column.|No Issues.|
 |baths|Number of baths in a listing.|17 unique values of a qualitative column.|Replaced ‘Not Specified’ with 0. Changed datatype to integer.|
+
 #### *After Data Cleaning & Transformation*
 Total Records  --  20758  
 Number of Columns – 26  
@@ -61,6 +63,67 @@ Created 4 new columns, such as: other_listings, host_listing_status, license_cat
 ### Analysis
 #### KPI's
 ![KPI's](https://github.com/user-attachments/assets/a82d2068-dee7-48fe-98c5-a392af291cb6)
+
+- **Room Type Listings for each Borough:**  
+Different room types are more common in certain areas of New York compared to other areas. In Brooklyn, Manhattan, & Staten Island, Entire home/apt is in demand with 4129, 5288 and 156 listings. While in Bronx & Queens, Private room with 544 and 2093 listings is the most common room type guest opt for. This is the pattern for the different areas in New York.  
+![Listings by Borough](https://github.com/user-attachments/assets/8ad6b6cb-7604-4867-b366-8ddee3f7674d)
+
+- **Average Price Distribution of Listings for each Borough:**  
+Manhattan has the highest average price of listings made in New York with an amount of $227,  compared to other boroughs which are less than $190.  
+![Avg Price by Borough](https://github.com/user-attachments/assets/eb148af0-c932-4748-9230-234d7c15c355)
+
+- **Effect of License on Price Listings:**  
+Based on the average price across each license category, specifying those with the OSE license and those without license, we can see from our chart that those proclaimed Exempted of the use of license has higher average price listings with about $274. While there’s not much difference between those without license (No License) and those with license (OSE License). This shows that the possession of OSE License does not have any effect of listings price.  
+![Avg price by License](https://github.com/user-attachments/assets/950089c6-fdee-4255-89f1-17f8b8a0f2f9)
+
+- **Percentage of Listings with License & No License:**  
+The data shows that 84.6% of listings on Airbnb in New York have No License.  
+![% of Listings by License](https://github.com/user-attachments/assets/22d9b081-d5ee-40d6-94a7-fd671de2c93d)
+
+- **Property Feature Trend:**  
+The average number of bedrooms, baths and beds in New York is 1 each for rooms listed in Airbnb.  
+![Avg Bedrroms and Baths](https://github.com/user-attachments/assets/fba13ae9-0b5b-4dab-8d73-573241bd0cdd)
+
+- **Average Price Distribution of Room Type:**  
+Based on the distribution of room types listed, Hotel rooms have a higher average price of $415, while Entire home/apt is the second highest with an amount of $223.  
+![Avg Price by Room Type](https://github.com/user-attachments/assets/ce1104b7-371a-48c0-991d-b4b53f4a96bd)
+
+- **Number of Active Listings by Guest Reviews:**  
+Based on the reviews of guests since 2011 to 2024, there has been an increase in trend with an  estimate of 9553 active host in 2023. After which there was a significant drop of hosts in 2024 which was likely due to the initiation of Local Law 18 that took effect in September 2023 on short-term rentals. 2023 therefore, experienced the most active listings from guests.  
+![Active Listings Trend](https://github.com/user-attachments/assets/2b5bcc07-14d6-4db1-ae7b-934d1f7e86af)
+
+- **Host Status on Short-term Rentals:**  
+Across all listings in New York, the most common listings are placed by Professional hosts with a total number of 10,973 listings; who are available within 181 -365 days. The second highest listings are made by Seasonal hosts that has an amount of 6557 listings.  
+![Listings by Host status](https://github.com/user-attachments/assets/91b00572-adc5-44e7-9548-b8ff12874f03)
+
+- **Average Price by Host Status:**  
+Professional hosts have a higher average price of $203. While Occasional hosts with listings less that 30 days ranks second with an average price of $177.  
+![Avg Price by Host status](https://github.com/user-attachments/assets/34f09cd3-9a09-4d1f-ac7e-3161ad15cd84)
+
+- **Correlation between Price & Bedrooms, and Price & Availability:**  
+The data shows a correlation of 0.069 score between Price & Bedrooms, meaning that there’s no relationship between Price & Bedrooms. Therefore, the number of Bedrooms does not determine the Price of a listing. Also, the same result is interpreted for Price & Availability that shows a correlation score of 0.02.  
+![Correlation matrix](https://github.com/user-attachments/assets/ae7f1ea9-9e55-4c1f-bfa7-685c95333edb)
+
+### Recommendations
+- Based on the analysis, I recommend that De-Stingray invest in boroughs like Manhattan and Brooklyn which not only have higher Price range, but also have more demands on rooms like Entire home/apt and Private room. While also considering Queens Borough for potential investment.
+- With the research carried out on Local Law 18 and with the fact extracted from our analysis on the percentage of listings with license, as well as the average price of listings based on license; De-Stingray can set up a short-term rental without license as long as the minimum nights for each listing is 30 & above.
+- Given that Professional host have higher returns, De-Stingray can look into providing listings that are available for at least 180 to 365 days.
+- Seeing that there’s no relationship between bedrooms and price, or availability and price; it shows that the feature of a listing does not determine the spike of price. Therefore, I recommend that De-Stingray look into more tourist attraction places aside from Manhattan and Brooklyn seeing that location has a major impact on price and demand of listings.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
