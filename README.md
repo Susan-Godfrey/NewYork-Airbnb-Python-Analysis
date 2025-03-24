@@ -1,5 +1,13 @@
 # NewYork Airbnb Market Analysis
 
+## Table of Contents
+[Introduction](#introduction)  
+[Data Source](#data-source)  
+[Objectives](#objectives)  
+[Summary Chart of Workflow Process before Analysis and Viz](#summary-chart-of-workflow-process-before-analysis-and-viz)  
+[Analysis](#analysis)  
+[Recommendations](#recommendations)
+
 ### Introduction
 De-Stingray, A real-estate startup has been into residential rentals and are looking to invest into short-term rentals. They need a detailed market analysis on New York Airbnb listings.
 
