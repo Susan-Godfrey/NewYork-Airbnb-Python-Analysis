@@ -113,8 +113,8 @@ The data shows a correlation of 0.069 score between Price & Bedrooms, meaning th
 ![Correlation matrix](https://github.com/user-attachments/assets/ae7f1ea9-9e55-4c1f-bfa7-685c95333edb)
 
 ### Recommendations
-- Based on the analysis, I recommend that De-Stingray invest in boroughs like Manhattan and Brooklyn which not only have higher Price range, but also have more demands on rooms like Entire home/apt and Private room. While also considering Queens Borough for potential investment.
-- With the research carried out on Local Law 18 and with the fact extracted from our analysis on the percentage of listings with license, as well as the average price of listings based on license; De-Stingray can set up a short-term rental without license as long as the minimum nights for each listing is 30 & above.
+- Based on the analysis, De-Stingray should invest in boroughs like Manhattan and Brooklyn which not only have higher Price range, but also have more demands on rooms like Entire home/apt and Private room. While also considering Queens Borough for potential investment.
+- With the research carried out on Local Law 18 and with the fact extracted from the analysis on percentage of listings with license, as well as the average price of listings based on license; De-Stingray can set up a short-term rental without license as long as the minimum nights for each listing is 30 & above.
 - Given that Professional host have higher returns, De-Stingray can look into providing listings that are available for at least 180 to 365 days.
 - Seeing that there’s no relationship between bedrooms and price, or availability and price; it shows that the feature of a listing does not determine the spike of price. Therefore, I recommend that De-Stingray look into more tourist attraction places aside from Manhattan and Brooklyn seeing that location has a major impact on price and demand of listings.
 
